@@ -18,12 +18,12 @@
         android:theme="@style/Theme.AutoClass">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".AlarmActivity"
+            android:showForAllUsers="true"
+            android:showOnLockScreen="true"
+            android:turnScreenOn="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service
